@@ -2,8 +2,8 @@
 
 ## Summary
 In this app the user is able to: 
-- Manage Properties
-- Manage Bookings
+- Search Properties
+- Make/Cancel Bookings
 
 This app is a front-end demo app. So, due to the timeline to develop the project, I'll be focusing only in React and the booking logic, design and structure. I'll build other resources for supporting the front-end application, but they will be used essentially to provide data to front-end (e.g.: Authentication, Server, DB).
 
