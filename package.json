@@ -13,7 +13,9 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "cypress": "cypress open",
+    "cypress:ci": "cypress run"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -28,7 +30,6 @@
     "async-mutex": "^0.5.0",
     "axios": "^1.7.2",
     "cors": "^2.8.5",
-    "cypress": "^13.12.0",
     "dayjs": "^1.11.11",
     "express": "^4.19.2",
     "formik": "^2.4.6",
@@ -55,6 +56,7 @@
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",
     "concurrently": "^8.2.2",
+    "cypress": "^13.13.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",

@@ -13,7 +13,7 @@ function LoginModalGroup() {
 
   return (
     <>
-      <SButton onClick={() => setOpen(true)} color="inherit">
+      <SButton data-testid="login-button" onClick={() => setOpen(true)} color="inherit">
         <SLogInOutText>Login</SLogInOutText><LoginIcon />
       </SButton>
       <GenericModal open={open} handleClose={handleClose}>

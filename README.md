@@ -26,6 +26,7 @@ This app is a front-end demo app. So, due to the timeline to develop the project
 - React Testing Library + Jest: For testing.
 - React Datepicker: For date selection.
 - dayjs: For date manipulation.
+- cypress: Automated e2e tests.
 
 ## Usage
 
@@ -73,7 +74,7 @@ Due to a 5 days deadline to finish this exercise, I focused on front-end work wi
 There are possible next steps for this app, some decisions that would need to be done, for example, are we going to a cloud solution approach for some back-end capabilities or will we use on premises infrastructure? I'll mention some bullet points:
 
 1. Implement a real database solution for the app. Considering entities that need to be strongly related to each other and entities that we predict that may evolve more frequently over the years, so the we can decide what to put in a SQL database and what to put in a NOSQL database.
-2. Test automation with cypress: currently we have a good unit test coverage, but a good balance between unit testing and e2e tests are needed. I would cover the main flows with automation tests.
+2. More test automation with cypress: currently we have a good unit test coverage, but a good balance between unit testing and e2e tests are needed. I would cover the main flows with automation tests. I've added the base of cypress config and two sample tests.
 3. Add more booking information to the Booking entity and consequently give the user the ability to update the booking.
 4. Real Authentication solution, with password included, encryption, JWT/PASETO, storage, etc.
 5. Currently is not possible to register properties as well. This should be a valid feature as well, and the Property entity should evolve with new fields also.

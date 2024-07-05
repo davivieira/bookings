@@ -46,7 +46,7 @@ function LoginForm({ handleClose }: LoginFormProps) {
           name="email"
           type="email"
         />
-        <SCLoginButton type="submit">
+        <SCLoginButton data-testid="submit-login-button" type="submit">
           {isSubmitting || isLoading ? <CircularProgress /> : "Login"}
         </SCLoginButton>
       </SCForm>
