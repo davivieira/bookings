@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyCard matches snapshot 1`] = `
+<div
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-i1351c-MuiPaper-root-MuiCard-root"
+>
+  <img
+    alt="green iguana"
+    class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+    height="140"
+    src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?fit=crop&w=800&q=80"
+  />
+  <div
+    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+  >
+    <div
+      class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+    >
+      Luxury Lakeside Villa
+    </div>
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+    >
+      A luxurious lakeside villa offering breathtaking views of Lake Tahoe, private beach access, and elegant interiors.
+    </p>
+  </div>
+  <div
+    class="MuiCardActions-root MuiCardActions-spacing css-u3p8xk-MuiCardActions-root"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      Book
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1w4tqd2-MuiTypography-root"
+    >
+      U$ 
+      180
+      ,00
+    </p>
+  </div>
+</div>
+`;

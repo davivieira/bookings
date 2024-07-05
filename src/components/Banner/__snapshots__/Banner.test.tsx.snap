@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner matches snapshot 1`] = `
+<div
+  class="MuiBox-root css-1q8qt3h"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-1snziej-MuiTypography-root"
+  >
+    Rent your next stay
+  </p>
+</div>
+`;

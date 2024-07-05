@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenericModal matches snapshot when open is true 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <div>
+        <div
+          class="modal-content"
+        >
+          <div>
+            Modal Content
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
