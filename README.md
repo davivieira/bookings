@@ -15,17 +15,17 @@ This app is a front-end demo app. So, due to the timeline to develop the project
 
 ## Tech Stack
 
-Vite: For a fast build tool and development server.
-TypeScript: For type safety and better development experience.
-Mui: Material UI as my components library.
-Mui Styled Components: For component-level styling.
-React Router: For navigation.
-Redux Toolkit: For global state management.
-React Query: For avoiding unnecessary useEffect usage, adding a good caching functionality and helping to fetch data.
-Formik + Yup: For form handling and validation.
-React Testing Library + Jest: For testing.
-React Datepicker: For date selection.
-dayjs: For date manipulation.
+- Vite: For a fast build tool and development server.
+- TypeScript: For type safety and better development experience.
+- Mui: Material UI as my components library.
+- Mui Styled Components: For component-level styling.
+- React Router: For navigation.
+- Redux Toolkit: For global state management.
+- React Query: For avoiding unnecessary useEffect usage, adding a good caching functionality and helping to fetch data.
+- Formik + Yup: For form handling and validation.
+- React Testing Library + Jest: For testing.
+- React Datepicker: For date selection.
+- dayjs: For date manipulation.
 
 ## Usage
 
