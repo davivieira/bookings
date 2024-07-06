@@ -31,6 +31,10 @@ This app is a front-end demo app. So, due to the timeline to develop the project
 ## Usage
 
 ```
+// Install all the dependencies
+npm install
+
+// Run server and client
 npm start
 ```
 
@@ -75,6 +79,14 @@ There are possible next steps for this app, some decisions that would need to be
 
 1. Implement a real database solution for the app. Considering entities that need to be strongly related to each other and entities that we predict that may evolve more frequently over the years, so the we can decide what to put in a SQL database and what to put in a NOSQL database.
 2. More test automation with cypress: currently we have a good unit test coverage, but a good balance between unit testing and e2e tests are needed. I would cover the main flows with automation tests. I've added the base of cypress config and two sample tests.
+  ```
+  // Run the app
+  npm start
+
+  // execute cypress
+  npm run cypress
+  ```
+
 3. Add more booking information to the Booking entity and consequently give the user the ability to update the booking.
 4. Real Authentication solution, with password included, encryption, JWT/PASETO, storage, etc.
 5. Currently is not possible to register properties as well. This should be a valid feature as well, and the Property entity should evolve with new fields also.
